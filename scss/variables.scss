@@ -1,0 +1,105 @@
+
+$screen-xxs: 375px;
+
+$screen-xs: 576px;
+
+$screen-sm: 768px;
+
+$screen-md: 992px;
+
+$screen-lg: 1151px;
+
+$screen-xl: 1400px;
+
+:root{
+
+    //font family
+    --text-font: 'Nunito Sans', sans-serif;
+    --heading-font: 'Heebo', sans-serif;
+
+    //theme color
+    --color-primary-500: rgba(45, 127, 249, 1);
+    --color-white: white;
+    --color-black: black; 
+    --color-secondary-500:#646464;
+
+    //heading H1
+    --font-size-h1: 64px;
+    --font-weight-h1: 800;
+
+    //heading H2
+    --font-size-h2: 64px;
+    --font-weight-h2: 600;
+
+    //heading H3
+    --font-size-h3: 48px;
+    --font-weight-h3: 700;
+    --font-height-h3: 65px;
+
+    //heading H4
+    --font-size-h4: 36px;
+    --font-weight-h4: 500;
+
+    //heading H5
+    --font-size-h5: 20px;
+    --font-weight-h5: 600;
+
+    //pragraph small
+    --font-size-small: 14px;
+    --font-weight-small: 400;
+    --line-height-small: 19px;
+
+    //paragraph xs
+    --font-size-xs: 12px;
+    --font-weight-regular: 400;
+
+    //paragraph medium
+    --font-size-medium: 16px;
+    --font-weight-regular: 400;
+    --line-height-medium: 22px;
+
+    //parapraph large
+    --font-size-large: 18px;
+
+    //paragraph extra large
+    --font-size-extralarge: 32px;
+    --font-weight-bold: 700;
+    --line-height-large: 42px;
+
+    //paragraph light
+    --font-weight-light: 300;
+
+    // button height
+    --button-height-default: 64px;
+    --button-height-sm: 48px;
+    --button-height-xs: 16px;
+
+
+    @media screen and  (min-width: $screen-xxs) and (max-width: $screen-xl) {
+        //heading H1
+        --font-size-h1: 32px;
+        --font-weight-h1: 800;
+
+        //heading H2
+        --font-size-h2: 44px;
+        --font-weight-h2: 600;
+
+        //heading H3
+        --font-size-h3: 32px;
+        --font-weight-h3: 700;
+        --font-height-h3: 43px;
+
+        //heading H4
+        --font-size-h4: 24px;
+        --font-weight-h4: 500;
+
+        //heading H5
+        --font-size-h5: 20px;
+        --font-weight-h5: 600;
+
+        //paragraph medium
+        --font-size-medium: 14px;
+        --line-height-medium: 20px;
+    }
+
+}
