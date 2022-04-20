@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap');
+@import "fonts/all.min";
 @import "variables.scss";
 @import "utils/colors.scss";
 @import "utils/text.scss";
@@ -8,6 +9,7 @@
 @import "utils/margin.scss";
 @import "paragraph/paragraph.scss";
 @import "heading/heading.scss";
+
 
 * {
     box-sizing: border-box;
@@ -119,15 +121,17 @@ html {
     padding-bottom: 64px;
     padding-left: 64px; 
     padding-right: 64px;
+    width: 300px;
 }
 .ap-header__nav__ul {
     padding-top: 64px;
 }
 .ap-header__nav__li {
     padding-left: 32px;
-    padding-bottom: 8px; 
-    padding-top: 8px;
     margin-bottom: 16px;
+    height: 40px;
+    display: flex;
+    align-items: center;
 }
 .ap-container {
     padding-top: 64px;
