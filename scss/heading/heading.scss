@@ -9,7 +9,7 @@
             font-weight: map-get($value, 'font-weight');
             line-height: map-get($value, 'line-height');
         }
-    }
+    } 
 
     @each $key, $value in $headingcolors {
         &.ap-heading--#{$key} {

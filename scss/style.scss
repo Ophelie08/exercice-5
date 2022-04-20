@@ -44,6 +44,11 @@ html {
 .ap-header__nav__li:hover > .ap-header__nav__link{
     color: var(--color-primary-500);
 }
+
+.ap-header__nav__link {
+    font-size: 1.2rem;
+}
+
 .ap-row {
     display:flex;
     flex-direction: row;
@@ -53,7 +58,7 @@ html {
 }
 
 
-@media screen and (min-width: $screen-xxs) and (max-width: $screen-xl)  { 
+@media screen and (max-width: $screen-md)  { 
     .ap-row {
         display: flex;
         flex-direction: column;
@@ -61,6 +66,8 @@ html {
 
     .ap-header {
         height: 77px;
+        display: flex;
+        justify-content: center;
     }
 
     .ap-header__nav__li { 
@@ -99,4 +106,28 @@ html {
     .ap-paragraph {
         margin-bottom: 24px;
     }
+}
+
+@media screen and (min-width: $screen-md) {
+.ap-header__logo {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 64px; 
+    padding-right: 64px;
+}
+.ap-header__nav__ul {
+    padding-top: 64px;
+}
+.ap-header__nav__li {
+    padding-left: 32px;
+    padding-bottom: 8px; 
+    padding-top: 8px;
+    margin-bottom: 16px;
+}
+.ap-container {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 64px;
+    padding-right: 64px;
+}
 }
