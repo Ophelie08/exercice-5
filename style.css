@@ -3596,8 +3596,11 @@ html {
   flex-direction: column;
   background-color: var(--color-primary-500);
   height: 100vh;
+  width: 300px;
   font-family: var(--text-font);
   position: relative;
+  position: fixed;
+  width: 300px;
 }
 .ap-header__logo {
   border-bottom: 1px solid rgba(255, 255, 255, 0.07);
@@ -3638,6 +3641,7 @@ html {
     height: 77px;
     display: flex;
     justify-content: center;
+    width: 100%;
   }
 
   .ap-header__nav__li {
@@ -3675,6 +3679,7 @@ html {
 
   .ap-container {
     padding: 32px;
+    padding-top: 109px;
   }
 
   .ap-paragraph {
@@ -3705,6 +3710,7 @@ html {
     padding-bottom: 64px;
     padding-left: 64px;
     padding-right: 64px;
+    margin-left: 300px;
   }
 }
 
